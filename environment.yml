@@ -1,0 +1,30 @@
+name: openhhi
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9.13
+  - pip
+  - ffmpeg=4.2.2
+  - numpy=1.21.6
+  - pytorch=1.13.1
+  - pytorch-cuda=11.7
+  - torchaudio=0.13.1
+  - torchvision=0.14.1
+  - pip:
+      - git+https://github.com/openai/CLIP.git
+      - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0.tar.gz#egg=en_core_web_sm
+      - bert-score==0.3.13
+      - einops==0.6.1
+      - gdown
+      - h5py
+      - matplotlib==3.3.4
+      - positional-encodings==6.0.3
+      - scipy==1.7.3
+      - smplx==0.1.28
+      - sparsemax==0.1.9
+      - tensorboard==2.11.2
+      - torch-geometric==2.3.1
+      - torchgeometry==0.1.2
+      - tqdm
