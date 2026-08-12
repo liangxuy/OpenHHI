@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+
+# Licensed data and body models
+body_models/
+data/
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.pkl
+
+# Generated results
+rendered/
+*_test/
+outputs/
+statistics/
+

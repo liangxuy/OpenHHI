@@ -44,6 +44,10 @@ After extraction, verify that the repository contains these paths:
     checkpoints/interx/trans_rot6d_uni/model/best_fid.tar
     data/Inter-X_Dataset/processed/motions_rot6d/
 
+## Data Preprocessing
+
+The [`preprocess`](preprocess/) directory provides a standalone pipeline for rebuilding the processed Inter-X data from the raw dataset. It converts paired SMPL-X motions into Rot6D HDF5 files, creates the official train/validation/test splits, tokenizes interaction captions, and constructs the corresponding GloVe vocabulary. See the [preprocessing guide](preprocess/README.md) for requirements, data layouts, and step-by-step commands.
+
 ## Text-Driven Generation
 
 Edit `prompts.txt` and place one English interaction description on each line. Then run:
