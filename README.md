@@ -110,4 +110,11 @@ If you find the Inter-X/Inter-X++ dataset is useful for your research, please ci
   pages={22260--22271},
   year={2024}
 }
+
+@article{xu2026inter,
+  title={Inter-X++: A Comprehensive Benchmark for Multimodal Human-Human Interaction Analysis},
+  author={Xu, Liang and Yang, Chengqun and Lin, Zili and Lv, Xintao and Yan, Yichao and Jin, Xin and Chen, Zhibo and Yang, Xiaokang and Zeng, Wenjun},
+  journal={arXiv preprint arXiv:2608.20312},
+  year={2026}
+}
 ```
